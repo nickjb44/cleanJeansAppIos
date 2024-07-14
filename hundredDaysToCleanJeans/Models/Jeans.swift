@@ -11,9 +11,11 @@ struct Jeans {
     let id: Int
     let name: String
     let dateEntered: Date
+    let datePurchased: Date?
     let numberOfDaysWhenReady: Int
     let brand: String?
-    let size: String?
+    let waistSize: String?
+    let pantLength: String?
     let color: String?
     let material: String?
     let notes: String?

@@ -9,10 +9,12 @@ import Foundation
 
 class AddingJeansViewModel: ObservableObject {
     @Published var name: String = ""
-    @Published var dateEntered: Date = Date()
     @Published var numberOfDaysWhenReady: Int = 0
+    @Published var datePurchased: Date? = nil
+    @Published var dateEntered: Date = Date()
     @Published var brand: String = ""
-    @Published var size: String = ""
+    @Published var waistSize: String = ""
+    @Published var pantLength: String = ""
     @Published var color: String = ""
     @Published var material: String = ""
     @Published var notes: String = ""
@@ -24,9 +26,11 @@ class AddingJeansViewModel: ObservableObject {
             id: UUID().hashValue,
             name: name,
             dateEntered: dateEntered,
+            datePurchased: datePurchased,
             numberOfDaysWhenReady: numberOfDaysWhenReady,
             brand: brand,
-            size: size,
+            waistSize: waistSize,
+            pantLength: pantLength,
             color: color,
             material: material,
             notes: notes,
