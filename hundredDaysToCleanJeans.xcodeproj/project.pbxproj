@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CE1AEF22C43D1BB00CDE16D /* JeansListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1AEF12C43D1BB00CDE16D /* JeansListViewModel.swift */; };
 		8CFD34DE2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD34DD2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift */; };
 		8CFD34E02C43121500656CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD34DF2C43121500656CE8 /* ContentView.swift */; };
 		8CFD34E22C43121700656CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFD34E12C43121700656CE8 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CE1AEF12C43D1BB00CDE16D /* JeansListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansListViewModel.swift; sourceTree = "<group>"; };
 		8CFD34DA2C43121500656CE8 /* hundredDaysToCleanJeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hundredDaysToCleanJeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFD34DD2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundredDaysToCleanJeansApp.swift; sourceTree = "<group>"; };
 		8CFD34DF2C43121500656CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				8CFD35032C43BF7800656CE8 /* UserViewModel.swift */,
 				8CFD35052C43BF7E00656CE8 /* JeansViewModel.swift */,
+				8CE1AEF12C43D1BB00CDE16D /* JeansListViewModel.swift */,
 				8CFD350F2C43C7E100656CE8 /* AddingJeansViewModel.swift */,
 			);
 			path = ViewModels;
@@ -244,6 +247,7 @@
 				8CFD34F92C43BE3B00656CE8 /* LoginView.swift in Sources */,
 				8CFD34FE2C43BF5700656CE8 /* JeansListView.swift in Sources */,
 				8CFD35022C43BF6A00656CE8 /* AddingJeansView.swift in Sources */,
+				8CE1AEF22C43D1BB00CDE16D /* JeansListViewModel.swift in Sources */,
 				8CFD34F72C43BE2A00656CE8 /* Jeans.swift in Sources */,
 				8CFD35002C43BF6300656CE8 /* JeansDetailView.swift in Sources */,
 				8CFD35062C43BF7E00656CE8 /* JeansViewModel.swift in Sources */,
