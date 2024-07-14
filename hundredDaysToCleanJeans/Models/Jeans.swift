@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Jeans {
+struct Jeans: Identifiable {
     let id: Int
     let name: String
     let dateEntered: Date
@@ -22,4 +22,8 @@ struct Jeans {
     let status: String?
     let lastWornDate: Date?
     let wornDates: [Date]
+    
+    var daysWorn: Int {
+        return wornDates.count
+    }
 }
