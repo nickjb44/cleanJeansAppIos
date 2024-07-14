@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C087C5E2C43D5EA0020D360 /* JeansDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C087C5D2C43D5EA0020D360 /* JeansDetailViewModel.swift */; };
 		8CE1AEF22C43D1BB00CDE16D /* JeansListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1AEF12C43D1BB00CDE16D /* JeansListViewModel.swift */; };
 		8CFD34DE2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD34DD2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift */; };
 		8CFD34E02C43121500656CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD34DF2C43121500656CE8 /* ContentView.swift */; };
@@ -20,7 +21,6 @@
 		8CFD35002C43BF6300656CE8 /* JeansDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD34FF2C43BF6300656CE8 /* JeansDetailView.swift */; };
 		8CFD35022C43BF6A00656CE8 /* AddingJeansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD35012C43BF6A00656CE8 /* AddingJeansView.swift */; };
 		8CFD35042C43BF7800656CE8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD35032C43BF7800656CE8 /* UserViewModel.swift */; };
-		8CFD35062C43BF7E00656CE8 /* JeansViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD35052C43BF7E00656CE8 /* JeansViewModel.swift */; };
 		8CFD35082C43BFC100656CE8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD35072C43BFC100656CE8 /* AuthService.swift */; };
 		8CFD350A2C43BFCB00656CE8 /* BiometricAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD35092C43BFCB00656CE8 /* BiometricAuthService.swift */; };
 		8CFD350C2C43BFD200656CE8 /* JeansService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD350B2C43BFD200656CE8 /* JeansService.swift */; };
@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C087C5D2C43D5EA0020D360 /* JeansDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansDetailViewModel.swift; sourceTree = "<group>"; };
 		8CE1AEF12C43D1BB00CDE16D /* JeansListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansListViewModel.swift; sourceTree = "<group>"; };
 		8CFD34DA2C43121500656CE8 /* hundredDaysToCleanJeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hundredDaysToCleanJeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFD34DD2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hundredDaysToCleanJeansApp.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		8CFD34FF2C43BF6300656CE8 /* JeansDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansDetailView.swift; sourceTree = "<group>"; };
 		8CFD35012C43BF6A00656CE8 /* AddingJeansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingJeansView.swift; sourceTree = "<group>"; };
 		8CFD35032C43BF7800656CE8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
-		8CFD35052C43BF7E00656CE8 /* JeansViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansViewModel.swift; sourceTree = "<group>"; };
 		8CFD35072C43BFC100656CE8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8CFD35092C43BFCB00656CE8 /* BiometricAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthService.swift; sourceTree = "<group>"; };
 		8CFD350B2C43BFD200656CE8 /* JeansService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeansService.swift; sourceTree = "<group>"; };
@@ -127,9 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				8CFD35032C43BF7800656CE8 /* UserViewModel.swift */,
-				8CFD35052C43BF7E00656CE8 /* JeansViewModel.swift */,
 				8CE1AEF12C43D1BB00CDE16D /* JeansListViewModel.swift */,
 				8CFD350F2C43C7E100656CE8 /* AddingJeansViewModel.swift */,
+				8C087C5D2C43D5EA0020D360 /* JeansDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -238,6 +238,7 @@
 				8CFD34FC2C43BF4E00656CE8 /* SignupView.swift in Sources */,
 				8CFD350C2C43BFD200656CE8 /* JeansService.swift in Sources */,
 				8CFD350A2C43BFCB00656CE8 /* BiometricAuthService.swift in Sources */,
+				8C087C5E2C43D5EA0020D360 /* JeansDetailViewModel.swift in Sources */,
 				8CFD35102C43C7E100656CE8 /* AddingJeansViewModel.swift in Sources */,
 				8CFD34E02C43121500656CE8 /* ContentView.swift in Sources */,
 				8CFD34DE2C43121500656CE8 /* hundredDaysToCleanJeansApp.swift in Sources */,
@@ -250,7 +251,6 @@
 				8CE1AEF22C43D1BB00CDE16D /* JeansListViewModel.swift in Sources */,
 				8CFD34F72C43BE2A00656CE8 /* Jeans.swift in Sources */,
 				8CFD35002C43BF6300656CE8 /* JeansDetailView.swift in Sources */,
-				8CFD35062C43BF7E00656CE8 /* JeansViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
